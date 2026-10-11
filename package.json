@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./output.css",
+    "watch": "tailwindcss -i ./style.css -o ./output.css --watch",
+    "dev": "npx @tailwindcss/cli -i ./style.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biruk-alt/Tailwind-Css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Biruk-alt/Tailwind-Css/issues"
+  },
+  "homepage": "https://github.com/Biruk-alt/Tailwind-Css#readme"
+}
