@@ -7,30 +7,3 @@ body {
     min-height: 100vh;
 }
 
-@theme {
-    --color-bg: white
-}
-
-@layer base {
-    h1 {
-        @apply text-2xl font-bold;
-    }
-
-    p {
-        @apply text-gray-500;
-    }
-
-    button {
-        @apply p-3 bg-blue-100 rounded-2xl font-semibold;
-    }
-}
-
-@layer components {
-    .card {
-        @apply bg-bg p-4 max-w-[350px] space-y-2 flex-center flex-col rounded-2xl m-3;
-    }
-}
-
-@utility flex-center {
-    @apply flex justify-center items-center;
-}
