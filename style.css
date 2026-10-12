@@ -1,9 +1,30 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
 body {
-    background-color: rgb(12, 1, 82);
+    font-family: "Poppins";
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+@theme {    
+    --breakpoint-tablet: 690px;
+}
+
+@layer components {
+    input {
+        @apply rounded-[10px] placeholder:text-sm;
+    }
+
+    textarea {
+        @apply rounded-[10px];
+    }
+
+    select {
+        @apply rounded-[10px];
+    }
 }
 
